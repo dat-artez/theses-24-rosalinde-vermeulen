@@ -2,8 +2,19 @@
 
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    background-color: whitesmoke;
+    color: rgb(0, 0, 0);
+    padding-left: 12%;
+    padding-right: 12%;
 }
 
 pre{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+
+.dark-mode{
+    background-color: rgb(44, 44, 44);
+    color: white;
+    
 }
