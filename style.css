@@ -18,3 +18,17 @@ pre{
     color: white;
     
 }
+
+button{
+    background-color: whitesmoke;   
+    font-size: 26px;
+    cursor: pointer;
+    padding: 10px 24px;
+    border: none;
+    /* border-radius: 5px; */
+}
+
+.dark-mode button{
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
