@@ -1,17 +1,52 @@
 /* billie stylish */
 
+
+@font-face {
+    font-family: 'title-font';  /*     Aesthetic-Regular.ttf       Belgiano-Serif-2.ttf       Polyamine.ttf (g)   BeastlyTomahawk.ttf    Vogue.ttf     MOXA-Bestine.woff */
+    src: url('fonts/MOXA-Bestine.woff');
+}
+
+@font-face {
+    font-family: 'text-font';
+    src: url('fonts/Baskerville.ttc');
+}
+
+.title-font {
+    font-family: 'title-font';
+}
+
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 100%;
+    font-family: 'text-font';
+    /* font-family: monospace; */
+    font-size: 20px;
     background-color: whitesmoke;
     color: rgb(0, 0, 0);
     margin: 10px;
 }
-
-
 pre {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'text-font';
+    /* font-family: monospace; */
+    margin-left: 25%;
+    margin-right: 25%;
 }
+
+
+.centered-container{
+    
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+
+.chapter-select{
+    display: flex;
+    justify-content: space-between;
+    /* padding-left: 90%; */
+}
+
+
+
 
 .dark-mode {
     background-color: rgb(44, 44, 44);
@@ -54,7 +89,8 @@ html {
 }
 
 .left{
-    margin-left: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .right-side {

@@ -11,3 +11,6 @@ function darkMode(){
       }
 }
 
+function scrollToElement(scrollTo){
+  document.getElementById(scrollTo).scrollIntoView({behavior: 'smooth'});
+}

@@ -1,29 +1,695 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Us, Extended</title>
-    <script src="main.js"></script>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div>
-        <button onclick="darkMode()" id="changeText">🌑</button>
-    </div>
-<div class="text">   
-<center>
-    <div class="container" >
-        <div class="left-side">
-            <iframe src="left_content.html" frameborder="0"></iframe>
-          </div>
-          <div class="right-side">
-            <iframe src="right_content.html" frameborder="0"></iframe>
-          </div>
-    </div>
-<div>
- 
 
-</div>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Us, Extended, or, the Modern Frankenstein</title>
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+
+        <div class="chapter-select">
+            <button onclick="scrollToElement('prologue')">Prologue</button>
+            <br>
+            <button onclick="scrollToElement('chapter-1')">Chapter 1</button>
+            <br>
+            <button onclick="scrollToElement('chapter-2')">Chapter 2</button>
+            <br>
+            <button onclick="scrollToElement('chapter-3')">Chapter 3</button>
+            <br>
+            <button onclick="scrollToElement('conclusion')">Conclusion</button>
+            <br>
+            <button onclick="scrollToElement('bibliography')">Bibliography</button>
+            <br>
+        </div>
+
+        <div class="left">
+            <div id="the-title">
+                <center>
+                    <div class="title-font">
+                        <h1>Us, Extended</h1>
+                        <h1><i>or</i></h1>
+                        <h1> The Modern Frankenstein </h1>
+                        <i>
+                            <h2>An Exploration of Cyborgness Since the 1800s</h2>
+                        </i>
+                        <h3>______________________________________________________</h3>
+                        <i>by</i>
+                        <i>Rosalinde Vermeulen </i>
+                </center>
+            </div>
+
+            <br>
+        </div>
+
+        <div class="centered-container">
+            <div>
+                <div id="prologue">
+                    <center>
+                        <h2 class="title-font">PROLOGUE</h2>
+                    </center>
+                    <p>For a couple of years now, I have been fascinated with older papers and science fiction stories
+                        about
+                        emerging technologies. I believe they are helpful to understand how people were thinking about
+                        technology in their own time and from their own perspective. Through part of this research, I
+                        have
+                        come to the term ‘Cyborgness’. While others have used it too , it does not have a distinct
+                        definition. For this text I have defined it as the following:
+                    </p>
+                    <div>
+                        <h3> Cyborgness (n.)</h3>
+                        1. The state, condition, or quality of being a cyborg; cybernetic organism.
+                        <br><br>
+                        2. The connection and extension of the human through technology.
+                        <br><br>
+                        3. The integration and inability of separation between humans and their creations.
+                        <br><br>
+
+                        Considering this definition, all of us are — and have been — infused with Cyborgness for a long
+                        time
+                        now. Ever since we invented the first tools, we have created a dependency on them. Without
+                        technology, would we know what to do with ourselves? As American author and professor Donna
+                        Haraway
+                        says in her essay ‘A Manifesto for Cyborgs: Science, Technology, and Socialist Feminism in the
+                        1980s’: ‘High-tech culture challenges…dualisms in intriguing ways. It is not clear who makes and
+                        who
+                        is made in the relation between human and machine’. Today, what is making us slowly more cyborg
+                        than
+                        human is the connection we have with technology and to each other through it. Our tools have
+                        become
+                        more than just technology, and our technology has become more than just our tools, they have
+                        become
+                        extensions of ourselves, of humanity. This is what British essayist and historian Thomas Carlyle
+                        wrote about machinery in 1829: ‘These things...indicate a mighty change in our whole manner of
+                        existence. For the same habit regulates not our modes of action alone, but our modes of thought
+                        and
+                        feeling. Men are grown mechanical in head and in heart, as well as in hand.’ To me it sounds as
+                        if
+                        two hundred years ago Carlyle already understood the influence machinery/tools/technology would
+                        have
+                        on human beings collectively.
+                        <br>Another aspect of my research made me question why I have a much easier time reading a
+                        science
+                        fiction story than a scientific text. Why is it that I can read John Tolkien’s The Hobbit, or
+                        There
+                        and Back Again (1937) in less than a week, but can barely get started on some theoretical texts,
+                        which are often much shorter than an entire book. I assume this has to do with the writing
+                        style,
+                        and because stories give you something to care about, a character, a problem and a journey. At
+                        the
+                        end of the journey, the characters will have changed, learned a lesson or succeeded in
+                        accomplishing
+                        their goal.
+                        <br>That is why I decided to write this thesis with a more story-like writing style, while still
+                        containing my research and references. During the tale that follows I aim to shed light on how
+                        our
+                        understanding of the connection between human and machine has evolved since the 1800s,
+                        particularly
+                        within science fiction, and how it influences the way we think about Cyborgness in the present
+                        day.
+                        When I talk about science fiction, I do not necessarily mean the kind with spaceships, laser
+                        guns
+                        and teleporters. I am talking about stories that use science and fiction to critically reflect
+                        on
+                        technology, on how we use it and the effect it has on us and the world around us. By imagining
+                        what
+                        could be done with new technologies in a creative way, writers of the past have often had pretty
+                        good assumptions of what the world could look like today. This is how Bruce Sterling, American
+                        science fiction author, worded it in 1986 in the preface of William Gibson’s Burning Chrome:
+                        <br><br>
+                        <i>Science-fiction writers are...court jesters. We are Wise Fools who can leap, caper, utter
+                            prophecies, and scratch ourselves in public. We can play with Big Ideas because the garish
+                            motley of our pulp origins makes us seem harmless. ...we have influence without
+                            responsibility.
+                            Very few feel obliged to take us seriously, yet our ideas permeate the culture bubbling
+                            along
+                            invisibility, like background radiation.
+                        </i>
+                        <br><br>
+                        Science fiction writers have a special place in history. No one has to take them seriously, but
+                        in
+                        the meantime they have the most critical and wild thoughts about the present day, and they reach
+                        a
+                        large audience. They are the ones who make their readers think about the influence and effect of
+                        emerging technologies. Sterling also says in the same preface ‘we see a future that is
+                        recognisably
+                        and painstakingly drawn from the modern condition’, further specifying that Gibson’s science
+                        fiction
+                        tales are not some wild speculation about the future, but a commentary on the then-present.
+                        <br>Now without further ado, let us get into a conversation between two people where one will
+                        teach
+                        the other what it means to be human, what it means to be cyborg and how to engage with the
+                        technology that is all around us through the use of a bit of science fiction.
+                        <br><br>
+                        <i>Rosalinde Vermeulen</i>
+                    </div>
+                </div>
+                <div>
+                    <br>
+                    <br>
+                    <div id="chapter-1">
+                        <center>
+                            <h2 class="title-font">1</h2>
+                            <h2 class="title-font">The Creator’s Connection to their Creation</h2>
+                        </center>
+                    </div>
+                    <div>
+                        As I looked around, I found myself surrounded by pine trees and mountains with summits covered
+                        in
+                        snow. All around the misty mountains disappeared in the distance. No one else was here. I
+                        directed
+                        myself upwards the mountain, up the steep hill and across the lightly paved out path. I could
+                        hear
+                        the wind whipping past me, soft snow falling against the rocks and the chirping of birds playing
+                        in
+                        my ears. I enjoyed the sereness of it.
+                        <br><br>
+                        Somewhere through all the sounds, I heard a knock against my window.
+                        <br><br>
+                        Exiting the virtual environment, I came back to my apartment. Rain was pelting against the
+                        window
+                        and the occasional thunder could be heard. And there, within the rain, was a figure, knocking on
+                        my
+                        window.
+                        <br><br>
+                        ‘Thanks,’ she said, ‘can I come inside?’
+                        <br><br>
+                        I nodded, and before I could say anything more, she was standing right in front of me. I offered
+                        her
+                        some dry clothes and a cup of hot tea. We sat down in my small living room. On my computer the
+                        simulation of Chamounix was still running. She looked at it while considering what to say.
+                        <br><br>
+                        'Ever actually been there? Like, not virtually.’ She questioned. I shook my head.
+                        <br><br>
+                        ‘It’s quite a sight to behold. The air up there is fresh, and the feeling of the wind in your
+                        hair
+                        is absolutely awesome. If you have the chance, you should really go out there.’
+                        <br><br>
+                        I looked at her doubtfully and told her it was an area near Mont Blanc. She was looking at my
+                        mostly
+                        empty shelves. Most of my literature wasn't on there, I didn’t own that many paper copies
+                        anymore.
+                        There were some trinkets, a wine glass I forgot to put away and an old paper copy of
+                        Frankenstein I
+                        was gifted by an old friend a long time ago, though I had not touched it since.
+                        <br><br>
+                        'Have you ever read Frankenstein, or the Modern Prometheus?’ She asked. I shook my head again,
+                        questioning if I should have. Why I would have.
+                        <br><br>
+                        'It is this novel written in 1818 (revised in 1831) by Mary Shelley about how far technology
+                        could
+                        go, and the imagining of a ghost-story with her friends. Yet it is so much more than that. Dr
+                        Frankenstein gave life to a body constructed of several different corpses through the use of
+                        electricity. The creation was supposed to be beautiful, given life through technology and
+                        science,
+                        and a new step in science and alchemy. But instead, horrified by what he had done, he turned
+                        away
+                        from his creation and cursed it for being alive, while it was Frankenstein who had created him.
+                        I
+                        think the story of Dr Frankenstein and his creation is incredibly important for how we think
+                        about
+                        technology and ourselves nowadays, as it is very similar to the circumstances we find ourselves
+                        in
+                        today.
+                        In a way, we are both the doctor and the creature he created. Because we made technology, we are
+                        connected to and through it. When we realise how much control this technology has over our lives
+                        we
+                        are horrified and try to turn away from it. That is the moment when we find that we cannot, we
+                        are
+                        connected and cannot get ourselves to get completely rid of it. We even went one step further
+                        than
+                        the doctor and connected our creation so deeply into our lives and ourselves, that if you took
+                        it
+                        away, we would struggle to function. We can only try to be more aware of how we engage with it.
+                        In
+                        the end Frankenstein decided to let his creation live, as we are also still living with ours
+                        every
+                        single day.
+                        You could also say we are both the creator, the creation, and the connection, and because of
+                        that we
+                        are on our way to becoming true cyborgs. Though we are not there quite yet. It is important to
+                        keep
+                        in mind that being cyborg does not mean that you are no longer human. A cyborg is the extended
+                        human, the connected human, the one who cannot separate from technology. The term cyborg was
+                        first
+                        defined by Austrian scientist and inventor Manfred Clynes and American scientist Nathan Kline in
+                        Cyborgs and Space in 1960 as an organism that purposefully extends themselves using external
+                        components to adapt to new environments. In that time, they were talking about space travel.
+                        Today,
+                        we can see the Internet as one of these environments. Just think about how well acquainted you
+                        are
+                        with your phone. When the battery dies it’s almost as if you lose one of your limbs, that is how
+                        used you are to it always being there. Where will you go when Google Maps can’t guide you
+                        anymore?
+                        Around the same time, American psychologist and computer scientist Joseph Licklider in said the
+                        following in his article ‘Man-Computer Symbiosis’:
+                        <i>The hope is that, in not too many years, human brains and computing machines will be coupled
+                            together very tightly, and that the resulting partnership will think as no human brain has
+                            ever
+                            thought and process data in a way not approached by the information-handling machines we
+                            know
+                            exist today. </i>
+                        That’s you and me, my friend, we have become what Licklider hoped for. We have the knowledge of
+                        the
+                        world at our fingertips, we operate machines in ways that Licklider could only dream of. You are
+                        so
+                        connected and so efficient, it’s wonderful. Right?
+                        Yuval Noah Harari, Israeli historian and author of Homo Deus: A Brief History of Tomorrow (2017)
+                        had
+                        the following to say about that:
+                        <br><br><i>
+                            Merging with robots and computers...is already happening right now, through innumerable
+                            mundane
+                            actions. Everyday millions of people decide to grant their smartphone a bit more control
+                            over
+                            their lives. ...In pursuit of health, happiness and power, humans will gradually change
+                            first
+                            one of their features and then another, and another, until they will no longer be human.
+                        </i><br><br>
+                        It is a warning. How far will you go, what parts of you will you willingly give to technology?
+                        We
+                        are more connected than any previous generation, but at what cost? Where does the threshold
+                        between
+                        human, cyborg and machine lie?’
+                        <br>
+                        <br>
+                    </div>
+                </div>
+                <div>
+                    <div id="chapter-2">
+                        <center>
+                            <h2 class="title-font">2</h2>
+                            <h2 class="title-font">The Duality of the Machine</h2>
+                        </center>
+                    </div>
+                    <div>
+                        I told her I think I am starting to understand, but that there were a lot of questions forming.
+                        <br><br>
+                        What did it mean to be cyborg? Was it good or bad, or something in between? Or somehow both and
+                        neither at the same time? Was I both human and machine? Where did the differences lie, and what
+                        are
+                        the important ones? Was I slowly becoming more machine than human, and would that really be that
+                        bad?
+                        <br><br>
+                        I was also thinking of something I had read in British computer scientist Alan Turing’s
+                        ‘Computing
+                        Machinery and Intelligence’. He wrote in 1950: ‘The claim that “machines cannot make mistakes”
+                        seems
+                        a curious one. One is tempted to retort, “Are they any worse for that?”’ If I was both human and
+                        machine, would I not make mistakes anymore? Would I make them with purpose? Or are mistakes so
+                        inherently human that even if I became more machine than human I would not stop making them?
+                        <br><br>
+                        ‘Alright, let us move on then,’ she said, breaking my train of thought and asked, ‘now that you
+                        know
+                        more about what it means to become cyborg, have you ever heard of the short story ‘The Machine
+                        Stops’?’
+                        <br><br>
+                        Again, I shook my head, I had never even heard of this one. She took this as a cue to start her
+                        monologuing again.
+                        <br><br>
+                        ‘The Machine Stops was written by E M Forster in 1909 about a world totally connected and
+                        controlled
+                        by the Machine. Everyone lives alone in a hexagonal room with a bed, a desk and the Book of the
+                        Machine. They needed nothing more. Every day they spend thinking of thoughts of other people
+                        that
+                        have thought of others' thoughts, in honour of the Machine. There are two characters we get to
+                        know,
+                        Vashti who is totally enraptured by the Machine and basically worships it as one would a godlike
+                        entity. The second character is Kuno, her son, who wants to break free from the Machine.
+                        Most things Kuno said rung true with me. In their first conversation in the story, Vashti and
+                        Kuno
+                        are having a conversation through purple glowing disks, with which they can see each other. Kuno
+                        is
+                        asking his mother to come and see him in real life, to discuss his hopes and dreams for the
+                        future.
+                        He also voices some dislike towards the Machine. After she refuses to meet him, he isolates
+                        himself
+                        after saying this:
+
+                        “I want to see you not through the Machine,” said Kuno. “I want to speak to you not through some
+                        wearisome Machine.” ... “Men made it, do not forget that. Great men, but men. The Machine is
+                        much,
+                        but it is not everything. I see something like you in this plate, but I do not see you. I hear
+                        something like you through this telephone, but I do not hear you.
+
+                        This is something that can very easily be translated to the devices we use for communication
+                        today,
+                        such as our phones and laptops. I feel like it is often found to be more honest to have a
+                        serious
+                        conversation, confession, or any sort of heart-to-heart face to face, without the barrier of a
+                        phone
+                        in between. That way emotions can be better read, the tonality of the voice is clearer and eye
+                        contact is actually really there.
+                        The most wondrous thing, for me, is that this concept most of us are experiencing every day was
+                        already foreseen in 1909. While landline phones did exist in 1909, it was not yet possible to
+                        call
+                        over longer distances, let alone see the person you are calling. The sound quality was also
+                        incomparable to what we have now. Even with all the modern-day improvements to
+                        telecommunication,
+                        Kuno's statements about “seeing someone through the Machine” still ring true. What’s more, our
+                        sense
+                        of each other has both been extended and compromised due to technology. And so has our sense of
+                        space. As Kuno expresses to Vashti:
+                        <br><br><i>
+                            You know that we have lost the sense of space. We say ‘space is annihilated,’ but we have
+                            annihilated not space, but that sense thereof. We have lost part of ourselves.
+                        </i><br><br>
+                        And:
+                        <br><br><i>
+                            We created the Machine...It has robbed us of the sense of space and of the sense of touch,
+                            it
+                            has blurred every human relation and narrowed down love to a carnal act, it has paralysed
+                            our
+                            bodies and our wills.
+                        </i><br><br>
+                        The whole world has been reduced to the palm of our hand or the size of an open book, and made
+                        accessible from basically anywhere within that world. On one hand this connection is wonderful,
+                        on
+                        the other it is changing how we interact, feel and think. The question is whether it is for
+                        better
+                        or for worse.
+                        Interestingly, after describing how their world has become unfit for athletes, Kuno says “Man
+                        must
+                        be adapted to his surroundings, must he not?” If I didn't know any better, I would think he was
+                        referring to Clynes and Kline’s definition of the cyborg. Except, that definition was developed
+                        about fifty years after Forster’s short story was published. This means that Forster not only
+                        anticipated the way we are now connected; to the whole wide world through the Internet, our
+                        mobile
+                        devices and social media platforms, but already saw that we would be adapting to this new world
+                        by
+                        extending ourselves through technology.
+                        Technology, especially the Internet, has influence over every part of our life. It is the medium
+                        through which we learn and discover, it determines the way we interact with people, it is where
+                        we
+                        find entertainment. At the same time, it is messing with our sense of place, scale and quantity,
+                        the
+                        way we perceive the world around us. This is because everything gets narrowed down to the size
+                        of
+                        our hands or to a number. The likes on the things we post, the amount of followers we have, the
+                        views we get, we see the whole world on a little tiny screen. While we are more connected to
+                        each
+                        other than ever before, at the same time it has become so easy to become disconnected from the
+                        world
+                        we live in.
+                        Not only has technology taken our sense of place in this world, but it has also gotten inside
+                        our
+                        heads. A whole new world lies beyond the screen, people to interact with, sights to see, things
+                        to
+                        experience, stories to read, reality or fiction, good or bad. In ‘The Machine Stops’ it even
+                        goes
+                        one step further, stating: “but the human tissues in that latter day had become so subservient,
+                        that
+                        they readily adapted themselves to every caprice of the Machine.” Meaning that, on the scale
+                        from
+                        human to machine, where cyborg lies perfectly at the centre, most characters in Forster’s story
+                        are
+                        almost fully on the machine's side. They have become so distant from what makes them human, they
+                        lost any sense of self, that human is not a name that fits them anymore.
+                        Earlier, when Kuno tells his mother about his first escape attempt back to the surface of the
+                        Earth
+                        he remarks:
+                        <br><br><i>
+                            I felt that humanity existed, ...and all these tubes and buttons and machineries neither
+                            came
+                            into the world with us, nor will they follow us out, nor do they matter supremely while we
+                            are
+                            here.
+                        </i><br><br>
+                        This statement has been very comforting to me, and I think is important to keep in mind about
+                        technology. Technology is great. It has done so much for us, improved our lives in so many ways.
+                        But
+                        when it ends, my life and yours, it will probably not matter significantly. Your online self
+                        will
+                        not follow you out, nor will your tech itself. They will stay behind, living on forever,
+                        immortalising you. Until someone, somehow, completely deletes it of the internet and you die
+                        again,
+                        completely forgotten this time.’
+
+                        <br>
+                        <br>
+                    </div>
+                </div>
+                <div>
+                    <div id="chapter-3">
+                        <center>
+                            <h2 class="title-font">3</h2>
+                            <h2 class="title-font">Welcome to the Internet</h2>
+                        </center>
+                    </div>
+                    <div>
+                        We sat in silence for a bit after that.
+                        <br><br>
+                        Eventually, I asked if we still use science fiction today to reflect on technology.
+                        <br><br>
+                        ‘That's an interesting one,’ she answered, ‘of course we do, though I think it is important to
+                        note
+                        that science fiction today is a little bit different than that of a hundred years ago. Then,
+                        science
+                        fiction primarily happened in the written form of books. Today that written form still exists,
+                        although it shows and expresses itself in many different types of media, from books to film to
+                        TV
+                        series to podcasts to games, and music. As long as it critically reflects on emerging
+                        technologies
+                        it can be science fiction.
+                        <br><br>
+                        Though for now, I want to focus on a short story by American writer and game designer Julian K
+                        Jarboe, since in it they reflect on a specific can of worms that the internet has opened for us.
+                        The
+                        story is called ‘"The Only Innocent Man”’ and follows Charlie, teacher and former poster of
+                        stories
+                        on the early Internet. He used to write softcore romance stories, always soft and sweet, and
+                        always
+                        between two men, one cis and the other transgender.
+                        One of his students finds his old stories and asks Charlie about them. Not liking this one bit,
+                        Charlie brings into question whether he and who he used to be, have a right to be forgotten for
+                        the
+                        things he did over a decade ago. Or does he belong to the enormous archive that is the Internet,
+                        where he shared himself freely, so he can forever be viewed by others who find solace in his
+                        stories? Do these strangers have a right to know him, or at least, who he used to be?
+                        Harari remarks the following in Homo Deus: “A friend once told me that what she fears most about
+                        growing old is becoming irrelevant, turning into a nostalgic old woman who cannot understand the
+                        world around her, or contribute much to it.”
+                        Charlie and Harari's friend are two sides of the same coin. On one side, there is the fear of
+                        being
+                        forgotten, having no legacy and leaving nothing behind, and on the other side there is the right
+                        to
+                        be forgotten, to be unknown and totally out of the spotlight that social media constantly shines
+                        upon us. The existence of the Internet has been so normalised that a lot of people do not
+                        question
+                        the way we interact with it and give it all of who we are. We can hardly imagine a world anymore
+                        without the knowledge of the world literally at our fingertips, guiding us through life. Charlie
+                        expresses his feelings about the double-edged sword that is the Internet like this:
+                        <br><br><i>
+                            You encounter two devils...: the one you know and the one you don’t. Desiring to express
+                            yourselves and connect with others, you and millions of people enter their most personal
+                            thoughts, feelings, and life events into databases. Everything you create is private
+                            property,
+                            and you are not its owner. ...Choose your devil carefully, and be aware that if you die in
+                            the
+                            cloud—which is only, after all, someone else’s computer—you may die in real life.
+                        </i><br><br>
+                        The Internet offers you connection to knowledge and to other like-minded people. In exchange
+                        They,
+                        with a capital T, get to look into your soul, They get to know the deepest parts of you, and get
+                        to
+                        keep you and all that you are. When you dance with the devil, you have to live with the
+                        consequences
+                        when he puts you in the spotlight. In 1998 Canadian Artist David Rokeby wrote the article ‘The
+                        Construction of Experience: Interface as Content’, and in it he writes:
+                        <br><br><i>
+                            The tricks of today’s artists and hackers are the commercial tools of tomorrow. Perhaps more
+                            significantly, with the explosive growth of the internet, these sleights-of-hand are
+                            becoming
+                            incorporated into communications systems, and by implication, into our social fabric.
+                            Whether we
+                            intend it or not, we’re redesigning the ways that we experience the world and each other.
+                        </i><br><br>
+                        We now have redesigned the way we experience the world and each other. The biggest question is
+                        if
+                        this has been a good call. We have become fluent in our connection to and through the Internet.
+                        Most
+                        of the time it is incredibly easy to forget that it has not always been like that. The Internet
+                        has
+                        been so normalised. This is not necessarily a new intricacy; it happens every time a new
+                        technology
+                        is introduced to the world. Carlyle, in 1829, wrote this about machinery:
+                        <br><br><i>
+                            To us who live in the midst of all this, and see continually the faith, hope and, practice
+                            of
+                            everyone founded on Mechanism of one kind or other, it is apt to seem quite natural, and as
+                            if
+                            it could never have been otherwise.”
+                        </i><br><br>
+                        Often new technologies are, after first being opposed to, quickly accepted and adapted into
+                        society.
+                        Where there are emerging technologies, there are luddites; people opposed to new technologies or
+                        ways of working. With the rise of machinery, they were afraid that the machines would steal
+                        their
+                        jobs, when photography was introduced they were afraid there was no use anymore for painting,
+                        when
+                        typewriters became accessible they were afraid kids would not learn how to write by hand
+                        anymore,
+                        with the rise of the internet they feared there would be no need to learn anything anymore, and
+                        now
+                        artificial intelligence will steal their jobs again.
+                        Yet it all always turned out fine. Right?’
+
+
+                        <br>
+                        <br>
+                    </div>
+                </div>
+                <div>
+                    <div id="conclusion">
+                        <center>
+                            <h2 class="title-font">CONCLUSION</h2>
+                        </center>
+                    </div>
+                    <div>
+                        The rain started to clear up, though puddles of water still covered the streets. Slowly, the
+                        moon
+                        started to shine through the clouds. It had been a while.
+                        <br><br>
+                        'It seems like my time to go has come. We are almost done here.’
+                        <br><br>
+                        I didn’t want her to leave me just yet. After dumping all this on me, what was I supposed do? I
+                        decided to ask her.
+                        <br><br>
+                        ‘Well,’ she started, ‘I hope to have enlightened you, and that you look at the world from time
+                        to
+                        time with an eye of science fiction.’
+                        She handed me a round object.
+                        <br><br>
+                        ‘Keep this with you. With it you can look at the world from a science fiction perspective.
+                        Imagine
+                        where advanced technology could take us, and how to engage and interact with it. To look at
+                        history
+                        like Harari does: “imagine for yourself...some altogether new creation. This is the best reason
+                        to
+                        learn history: not in order to predict the future, but to free yourself of the past and imagine
+                        alternative destinies. Of course, this is not total freedom – we cannot avoid being shaped by
+                        the
+                        past. But some freedom is better than none.” Start using science fiction, not to predict to
+                        future,
+                        but to actively and creatively engage with technology.
+                        I cannot definitively say whether technology is good or bad, because it is neither. Just like
+                        humans
+                        are not inherently good or bad. It is wholly dependent on how we engage with it.
+                        Do not forget that you are on your way to becoming a fully equipped cyborg. There is not much
+                        you
+                        can do about it and maybe you are already there. No need to be afraid, for it does not have to
+                        be a
+                        bad thing. You are somewhere on the scale between being human and cyborg. Be aware to not let
+                        technology take control of your life.
+                        It is important to remember that a cyborg, as Donna Haraway redefined it her 1985 Manifesto for
+                        Cyborgs, is “a cybernetic organism, a hybrid of machine and organism, a creature of social
+                        reality
+                        as well as a creature of fiction”.
+                        You cannot be cyborg without also being human, and every human has a bit of cyborgness in them.
+                        The
+                        two are not mutually exclusive; they go hand in hand. You cannot be one without the other. The
+                        only
+                        thing you have to watch out for is not to sell your soul on the way.
+                        And to conclude with one last quote from Carlyle:
+                        <br><br><i>
+                            But though Mechanism, wisely contrived, has done much for man in a social and moral point of
+                            view, we cannot be persuaded that it has ever been the chief source of his worth or
+                            happiness.
+                        </i><br><br>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+                <div>
+                    <div id="the-end">
+                        <center>
+                            <h2 class="title-font">The End</h2>
+                        </center>
+                    </div>
+                    <div>
+                        As I looked around, I found myself surrounded by pine trees and mountains with summits covered
+                        in
+                        snow. All around misty mountains disappeared in the distance. Looking to the left, there she
+                        was, by
+                        my side again. Other people were here too, on the same path up the Mont Blanc, wearing brightly
+                        coloured jackets to protect them from the cold. I carefully climbed up the mountain, up the
+                        steep
+                        hill and across the heavily used path. I felt the wind in my hair and crisp coldness on my skin,
+                        heard the crackling of snow underneath my feet and the chirping of birds in the trees.
+                        Through the woods we could see the Mont Blanc, while enjoying the feeling of the morning sun
+                        upon
+                        our skin and that of her hand in mine.
+                        <br><br>
+                        It felt so real.
+
+                    </div>
+                </div>
+                <div>
+                    <br>
+                    <br>
+                    <div id="bibliography">
+                        <center>
+                            <h2 class="title-font">BIBLIOGRAPHY</h2>
+                        </center>
+                    </div>
+                    <div>
+                        Carlyle T, ‘Signs of the Times’, The Collected Works of Thomas Carlyle Volume III (London
+                        Chapman
+                        and Hall 1858) (orig. Edinburgh Review 1829)
+                        <br><br>
+                        Clynes ME and Kline NS, 'Cyborgs and Space’ (1960) Astronautics 26-28, 75-76
+                        <br><br>
+                        Doctorow C, <i>The Internet Con: How to Seize the Means of Computation</i> (Verso Books 2023)
+                        <br><br>
+                        Forster EM, <i>The Machine Stops</i> (Oxford and Cambridge Review 1909)
+                        <br><br>
+                        Gibson W, <i>Neuromancer</i> (SF Masterworks 2022) (orig. Gollancz 1984)
+                        <br><br>
+                        — — <i>Burning Chrome</i> (Gollancz 2016) (orig. Gollancz 1986)
+                        <br><br>
+                        Haraway DJ, ‘A Manifesto for Cyborgs: Science, Technology, and Socialist Feminism in the 1980s’
+                        (Center for Social Research and Education 1985)
+                        <br><br>
+                        Harari YN, <i>Homo Deus: A Brief History of Tomorrow</i> (HarperCollins 2017)
+                        <br><br>
+                        Jarboe JK, ‘“The Only Innocent Man”’ (Slate.com 2022)
+                        <br><br>
+                        Licklider JCR, ‘Man-Computer symbiosis’ (1960) IRE Transactions on Human Factors in Electronics
+                        4-11
+                        <br><br>
+                        McLuhan M, <i>Understanding Media</i> (Sphere Books 1964)
+                        <br><br>
+                        Rokeby D, ‘The Construction of Experience: Interface as Content’ (davidrokeby.com 1998)
+                        <br><br>
+                        Shaw JK and Reeves-Evison T, <i>Fiction as Method</i> (Sternberg Press 2017)
+                        <br><br>
+                        Shelley M, <i>Frankenstein, or, the Modern Prometheus</i> (Wordsworth Classics 1993) (orig.
+                        1831)
+                        <br><br>
+                        Steyerl H, ‘In Defence of the Poor Image’ (e-flux.com 2009)
+                        <br><br>
+                        — — ‘Missing People: Entanglement, Superposition, and Exhumation as Sites of Indeterminacy’
+                        (e-flux.com 2012)
+                        <br><br>
+                        Tolkien JRR, <i>The Hobbit, or, There and Back Again</i> (Harper Collins 2013) (orig. George
+                        Allen &
+                        Unwin 1937)
+                        <br><br>
+                        Turing AM, ‘Computing Machinery and Intelligence’ (1950) LIX Mind 433-460
+                        <br><br>
+                        <br><br>
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </center>
+    </body>
+
 </html>
